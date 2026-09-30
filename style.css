@@ -85,5 +85,18 @@ a{
    cursor: pointer;
    filter:contrast(1.1)
 }
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container, .produits, header, nav {
+    width: 100% ;
+    flex-direction: column ;
+  }
+}
 
 
